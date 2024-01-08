@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "billd-live-react-native",
-    "slug": "billd-live-react-native",
+    "slug": "blive",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/app/billd-live-logo.png",
@@ -33,7 +33,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "5d2f3860-421d-4d26-b4ea-5070956665e3"
+        "projectId": "368cbb20-88f8-4f42-afc0-35c6807489f2"
       }
     },
     "plugins": [
@@ -48,6 +48,7 @@
     "ios": {
       "bitcode": false,
       "bundleIdentifier": "y"
-    }
+    },
+    "owner": "tylertheduck"
   }
 }
