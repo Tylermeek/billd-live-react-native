@@ -22,6 +22,8 @@ const Home = () => {
     setLoading(true);
     let res = await fetchLiveList({ orderBy: 'desc', orderName: 'created_at' });
     setLoading(false);
+    console.log(res.data.rows);
+
     setList(res.data.rows);
   }
   const isFocused = useIsFocused();
@@ -112,7 +114,7 @@ const Home = () => {
                 }}
                 shouldPlay
                 isMuted={isMuted}
-                // useNativeControls
+              // useNativeControls
               />
             ) : (
               <View
